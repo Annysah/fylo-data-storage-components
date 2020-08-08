@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background: hsl(229, 57%, 11%);
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    /*position: absolute;
+    top: 0;
+    left: 0;
+    */
+    background-image: url('images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.container-1 {
+    background: hsl(228, 56%, 26%);
+    width: 280px;
+    height: 140px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-radius: 6px 80px 6px 6px; 
+    color: #fff;
+}
+
+.logo-img {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.docs-img {
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    margin-left: 20px;
+}
+
+.img1, .img2, .img3 {
+    background: hsl(229, 57%, 11%);
+    margin-right: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.container-2 {
+    background: hsl(228, 56%, 26%);
+    width: 550px;
+    height: 120px;
+    position: absolute;
+    top: 33.5%;
+    left: 44%;
+    border-radius: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.data-des {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.data-des span {
+    font-weight: bolder;
+}
+
+.progress-bar {
+    margin-left: 25px;
+    margin-top: 14px;
+    width : 500px;
+    height: 20px;
+    background: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+
+.progress-line {
+    position: absolute;
+    bottom: 54px;
+    right: 170px;
+    width: 350px;
+    height: 12px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 10px;
+}
+
+.progress-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.tooltip {
+    background: #fff;
+    width: 200px;
+    height: 100px;
+    color: hsl(229, 57%, 11%);
+    border-radius: 10px 10px 0 10px;
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 100% 75%, 100% 100%, 87% 75%, 0% 75%);
+    position: absolute;
+    bottom: 85px;
+    right: 30px;
+}
+
+.tooltip p {
+    text-align: center;
+}
+
+.tooltip span {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.data-range {
+    color: #fff;
+    margin-top: 14px;
+}
+
+.data-range p1 {
+    float: left;
+}
+
+.data-range span {
+    float: right;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

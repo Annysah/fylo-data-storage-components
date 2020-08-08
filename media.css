@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    body {
+        min-width: 400px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 340px;
+        height: 90vh;
+        position: absolute;
+        top: 4%;
+        left: 20%;
+    }
+
+    .container-1 {
+        width: 300px;
+        height: 160px;
+        top: 18%;
+        left: 20px;
+    }
+
+    .container-2 {
+        width: 300px;
+        height: 140px;
+        top: 52%;
+        left: 20px;
+    }
+
+    .progress-bar {
+        width : 250px;
+    }
+
+    .progress-line {
+        width: 190px;
+        bottom: 74px;
+        right: 80px;
+    }
+
+    .tool-tip {
+        width: 220px;
+        height: 100px;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        right: 90px;
+    }
+}
